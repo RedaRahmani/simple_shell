@@ -8,6 +8,8 @@
  */
 int main(int argc, char **argv)
 {
+	(void)argc;
+	(void)argv;
 	prompt();
 
 	return (0);
