@@ -8,7 +8,7 @@ void prompt(void)
 	int n_char = 0;
 	while (1)
 	{
-		write(1, "$", 2);
+		write(1, "#cisfun$", 9);
 		n_char = getline(&command, &size_command, stdin);
 		if (n_char == EOF)
 			perror("getline problem");
